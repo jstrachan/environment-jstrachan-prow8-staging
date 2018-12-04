@@ -11,8 +11,8 @@ Adding missing Helm repo: releases http://jenkins-x-chartmuseum:8080
 Successfully added Helm repository releases.
 Applying helm chart at . as release name jx to namespace jx-staging
 Using values files: values.yaml
-Applying generated chart . YAML via kubectl in dir: /tmp/helm-template-workdir-029057027/jx/output
-Applying Helm hook post-upgrade YAML via kubectl in file: /tmp/helm-template-workdir-029057027/jx/helmHooks/env/charts/expose/templates/job.yaml
+Applying generated chart . YAML via kubectl in dir: /tmp/helm-template-workdir-062869412/jx/output
+Applying Helm hook post-upgrade YAML via kubectl in file: /tmp/helm-template-workdir-062869412/jx/helmHooks/env/charts/expose/templates/job.yaml
 Waiting for helm post-upgrade hook Job expose to complete before removing it
-Deleting helm hook sources from file: /tmp/helm-template-workdir-029057027/jx/helmHooks/env/charts/expose/templates/job.yaml
+Deleting helm hook sources from file: /tmp/helm-template-workdir-062869412/jx/helmHooks/env/charts/expose/templates/job.yaml
 Removing Kubernetes resources from older releases using selector: jenkins.io/chart-release=jx,jenkins.io/version!=1
